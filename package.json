@@ -2,7 +2,7 @@
   "name": "insomnia-plugin-smooth-theme",
   "version": "0.0.1",
   "description": "A balanced theme for Insomnia",
-  "private": true,
+  "private": false,
   "license": "MIT",
   "author": "Martin Ferret <ferretmartin91@gmail.com>",
   "insomnia": {

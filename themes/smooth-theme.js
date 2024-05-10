@@ -5,40 +5,40 @@ module.exports = {
   displayName: "smooth-theme",
   theme: {
     foreground: {
-      default: COLOR.BLACK,
+      default: COLOR.WHITE,
     },
     background: {
-      default: COLOR.WHITE,
+      default: COLOR.BLACK,
       success: COLOR.PURPLE,
-      notice: COLOR.GRAY,
-      warning: COLOR.GRAY,
+      notice: COLOR.ORANGE,
+      warning: COLOR.ORANGE,
       danger: COLOR.RED,
-      surprise: COLOR.BLUE,
+      surprise: COLOR.PURPLE,
       info: COLOR.PURPLE,
     },
     styles: {
       dialogHeader: {
         background: {
-          default: COLOR.PURPLE,
+          default: COLOR.BLACK,
         },
         foreground: {
           default: COLOR.WHITE,
         },
         highlight: {
-          md: COLOR.LIGHT_GRAY,
+          md: COLOR.BLACK,
         },
       },
       transparentOverlay: {
         background: {
-          default: `${COLOR.WHITE}80`,
+          default: `${COLOR.BLACK}80`,
         },
         foreground: {
-          default: COLOR.BLACK,
+          default: COLOR.WHITE,
         },
       },
       paneHeader: {
         background: {
-          default: COLOR.WHITE,
+          default: COLOR.BLACK,
           success: COLOR.PURPLE
         },
       },

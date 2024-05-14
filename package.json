@@ -1,19 +1,27 @@
 {
   "name": "insomnia-plugin-smooth-theme",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A balanced theme for Insomnia",
   "private": false,
   "license": "MIT",
   "author": "Martin Ferret <ferretmartin91@gmail.com>",
+  "homepage": "https://github.com/MartinFerret/smooth-insomnia-theme#readme",
   "insomnia": {
     "name": "smooth-theme",
     "description": "A balanced theme for Insomnia",
     "displayTheme": "Balanced Smooth Theme",
+    "image": {
+      "cover": "images/theme.png"
+    },
     "applications": {
       "core": "*"
     },
     "publisher": {
       "name": "Ferret Martin"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MartinFerret/smooth-insomnia-theme.git"
     }
   },
   "main": "main.js",

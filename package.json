@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-smooth-theme",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A balanced theme for Insomnia",
   "private": false,
   "license": "MIT",
@@ -10,8 +10,9 @@
     "name": "smooth-theme",
     "description": "A balanced theme for Insomnia",
     "displayTheme": "Balanced Smooth Theme",
-    "image": {
-      "cover": "images/theme.png"
+    "images": {
+      "cover": "images/theme.png",
+      "icon": "images/logo.png"
     },
     "applications": {
       "core": "*"
